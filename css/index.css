@@ -85,6 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -138,6 +139,11 @@ body {
   margin: auto;
   color: #191970;
 }
+@media (max-width: 500px) {
+  body {
+    width: 90%;
+  }
+}
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
@@ -167,11 +173,6 @@ h6 {
 .bodyStyles {
   font-family: "Comfortaa", cursive;
 }
-@media (max-width: 500px) {
-  .bodyStyles {
-    width: ;
-  }
-}
 .navLinks {
   display: flex;
   justify-content: space-evenly;
@@ -179,6 +180,12 @@ h6 {
   margin: 20px 0;
   margin-left: 50%;
   width: 50%;
+}
+@media (max-width: 500px) {
+  .navLinks {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .navLinks a {
   text-decoration: none;
@@ -193,6 +200,15 @@ h6 {
   padding: 4% 0;
   padding-left: 5%;
 }
+@media (max-width: 500px) {
+  .intro-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+  }
+}
 .intro-parent h1 {
   font-size: 2.5rem;
 }
@@ -202,6 +218,11 @@ h6 {
   width: 180px;
   background-color: gray;
   color: white;
+}
+@media (max-width: 500px) {
+  .intro-parent button {
+    margin-bottom: 30%;
+  }
 }
 .intro-parent hr {
   border: 0;
@@ -221,8 +242,21 @@ h6 {
   margin-bottom: 5%;
   margin-top: 5%;
 }
+@media (max-width: 500px) {
+  .middle-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .middle-parent .here {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .middle-parent .here {
+    width: 100%;
+    margin-bottom: 5%;
+  }
 }
 .middle-parent .here h1 {
   font-size: 1.5rem;
@@ -230,6 +264,11 @@ h6 {
 .middle-parent .skills {
   width: 50%;
   border: 1px solid black;
+}
+@media (max-width: 500px) {
+  .middle-parent .skills {
+    width: 100%;
+  }
 }
 .middle-parent .skills h1 {
   font-size: 1.5rem;
@@ -252,6 +291,11 @@ h6 {
   border-bottom: 1px solid black;
   height: 4vh;
 }
+@media (max-width: 500px) {
+  .bottom-parent .one {
+    word-spacing: 50px;
+  }
+}
 .bottom-parent .two {
   width: 100%;
   word-spacing: 122px;
@@ -260,12 +304,22 @@ h6 {
   background-color: lightgray;
   height: 4vh;
 }
+@media (max-width: 500px) {
+  .bottom-parent .two {
+    word-spacing: 65px;
+  }
+}
 .bottom-parent .three {
   width: 100%;
   word-spacing: 120px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   height: 4vh;
+}
+@media (max-width: 500px) {
+  .bottom-parent .three {
+    word-spacing: 50px;
+  }
 }
 .bottom-parent .four {
   width: 100%;
@@ -275,6 +329,11 @@ h6 {
   border-bottom: 1px solid black;
   background-color: lightgray;
   margin-bottom: 5%;
+}
+@media (max-width: 500px) {
+  .bottom-parent .four {
+    word-spacing: 50px;
+  }
 }
 footer {
   display: flex;
