@@ -143,12 +143,13 @@ body {
   margin: auto;
 }
 
-// VARIABLEF FOR FONT STYLES********
+// VARIABLES FOR FONT STYLES********
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Lacquer&display=swap");
 @body-font: "Lacquer", sans-serif;
 @heading-font: "Comfortaa", cursive;
 // *************************************
-// mix-in
+
+// mix-ins******************************
 .centered() {
   display: flex;
   justify-content: center;
@@ -156,8 +157,8 @@ body {
 .fnt() {
   font-size: 1.5rem;
 }
+// **************************************
 
-// *************************
 b {
   font-weight: bolder;
 }
@@ -242,22 +243,20 @@ h6 {
 		.fnt();
 	}
 	.exp{
-		// display: flex;
-		justify-content: space-between;
+		display: flex;
+		flex-direction: column;
 		width: 100%;
-		flex-wrap: wrap;
-		
 	}
 	.one{
 	width:100%;
-	word-spacing: 160px;
+	word-spacing: 105px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	height:4vh;
 	}
 	.two{
 		width:100%;
-		word-spacing: 12px;
+		word-spacing: 122px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
 		background-color: lightgray;
@@ -265,7 +264,7 @@ h6 {
 	}
 	.three{
 	width:100%;
-	word-spacing: 140px;
+	word-spacing: 120px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	height:4vh;

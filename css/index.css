@@ -234,20 +234,20 @@ h6 {
   font-size: 1.5rem;
 }
 .bottom-parent .exp {
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  flex-wrap: wrap;
 }
 .bottom-parent .one {
   width: 100%;
-  word-spacing: 160px;
+  word-spacing: 105px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   height: 4vh;
 }
 .bottom-parent .two {
   width: 100%;
-  word-spacing: 12px;
+  word-spacing: 122px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   background-color: lightgray;
@@ -255,7 +255,7 @@ h6 {
 }
 .bottom-parent .three {
   width: 100%;
-  word-spacing: 140px;
+  word-spacing: 120px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   height: 4vh;
