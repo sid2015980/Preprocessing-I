@@ -233,12 +233,10 @@ h6 {
 .bottom-parent h1 {
   font-size: 1.5rem;
 }
-.bottom-parent div {
-  display: flex;
-  justify-content: space-evenly;
+.bottom-parent .exp {
+  justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
-  text-align: center;
 }
 .bottom-parent .one {
   width: 100%;
@@ -279,4 +277,5 @@ footer {
   width: 100%;
   height: 8vh;
   align-items: center;
+  margin-bottom: 5%;
 }
