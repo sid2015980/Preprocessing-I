@@ -136,6 +136,7 @@ body {
 body {
   width: 880px;
   margin: auto;
+  color: #191970;
 }
 @font-face {
   font-family: 'Comfortaa';
@@ -161,9 +162,15 @@ h4,
 h5,
 h6 {
   font-weight: bold;
+  color: #CD5C5C;
 }
 .bodyStyles {
   font-family: "Comfortaa", cursive;
+}
+@media (max-width: 500px) {
+  .bodyStyles {
+    width: ;
+  }
 }
 .navLinks {
   display: flex;

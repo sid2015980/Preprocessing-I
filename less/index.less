@@ -141,12 +141,15 @@ body {
 body {
   width: 880px;
   margin: auto;
+  color:@main-color;
 }
 
 // VARIABLES FOR FONT STYLES********
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Lacquer&display=swap");
 @body-font: "Lacquer", sans-serif;
 @heading-font: "Comfortaa", cursive;
+@main-color:#191970;
+@heading-color:#CD5C5C;
 // *************************************
 
 // mix-ins******************************
@@ -169,9 +172,13 @@ h4,
 h5,
 h6 {
   font-weight: bold;
+  color:@heading-color;
 }
 .bodyStyles {
   font-family: @heading-font;
+  @media(max-width:500px){
+	  width:;
+  }
 }
 .navLinks {
   display: flex;
