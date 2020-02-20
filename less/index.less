@@ -153,9 +153,8 @@ body {
   display: flex;
   justify-content: center;
 }
-.left() {
-  display: flex;
-  justify-content: left;
+.fnt() {
+  font-size: 1.5rem;
 }
 
 // *************************
@@ -188,7 +187,7 @@ h6 {
 }
 
 .intro-parent {
-	margin-bottom: 5%;
+  margin-bottom: 5%;
   background-color: lightgrey;
   width: 100%;
   height: 60vh;
@@ -217,20 +216,76 @@ h6 {
   }
 }
 
-.middle-parent{
-.centered();
-width:100%;
-.here{
+.middle-parent {
+  .centered();
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  .here {
+    width: 50%;
+    h1 {
+      .fnt();
+    }
+  }
+  .skills {
+    width: 50%;
+    border: 1px solid black;
+    h1 {
+      .fnt();
+    }
+  }
+}
+
+.bottom-parent{
+	width:100%;
+	h1{
+		.fnt();
+	}
+	div{
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.one{
+	width:100%;
+	word-spacing: 160px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height:4vh;
+	}
+	.two{
+		width:100%;
+		word-spacing: 12px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		background-color: lightgray;
+		height:4vh;
+	}
+	.three{
+	width:100%;
+	word-spacing: 140px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height:4vh;
+	}
+	.four{
+		width:100%;
+		height:4vh;
+		word-spacing: 140px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		background-color: lightgray;
+		margin-bottom: 5%;
+	}
+}
+footer{
 	display: flex;
-	width: 50%;
-}
-.skills{
-	width:50%;
-	border: 1px solid black;
-}
-
-
-
-
-
+	justify-content: center;
+	background-color: gray;
+	color:white;
+	width: 100%;
+	height:8vh;
+	align-items: center;
 }

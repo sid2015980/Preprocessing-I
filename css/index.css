@@ -211,12 +211,72 @@ h6 {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 .middle-parent .here {
-  display: flex;
   width: 50%;
+}
+.middle-parent .here h1 {
+  font-size: 1.5rem;
 }
 .middle-parent .skills {
   width: 50%;
   border: 1px solid black;
+}
+.middle-parent .skills h1 {
+  font-size: 1.5rem;
+}
+.bottom-parent {
+  width: 100%;
+}
+.bottom-parent h1 {
+  font-size: 1.5rem;
+}
+.bottom-parent div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.bottom-parent .one {
+  width: 100%;
+  word-spacing: 160px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 4vh;
+}
+.bottom-parent .two {
+  width: 100%;
+  word-spacing: 12px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: lightgray;
+  height: 4vh;
+}
+.bottom-parent .three {
+  width: 100%;
+  word-spacing: 140px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 4vh;
+}
+.bottom-parent .four {
+  width: 100%;
+  height: 4vh;
+  word-spacing: 140px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: lightgray;
+  margin-bottom: 5%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  color: white;
+  width: 100%;
+  height: 8vh;
+  align-items: center;
 }
