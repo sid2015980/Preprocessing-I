@@ -156,7 +156,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Lacquer Regular'), local('Lacquer-Regular'), url(https://fonts.gstatic.com/s/lacquer/v1/EYqzma1QwqpG4_BBN7iKWg.ttf) format('truetype');
+  src: local('Lacquer Regular'), local('Lacquer-Regular'), url(https://fonts.gstatic.com/s/lacquer/v2/EYqzma1QwqpG4_BBN7iKWg.ttf) format('truetype');
 }
 b {
   font-weight: bolder;
@@ -280,9 +280,31 @@ h6 {
   font-size: 1.5rem;
 }
 .bottom-parent .exp {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
   width: 100%;
+}
+.bottom-parent .exp .work {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-parent .exp .work p {
+  width: 100%;
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+  border-left: 1px solid red;
+  background-color: lightgrey;
+}
+.bottom-parent .exp .work p:first-child {
+  border-top: 1px solid red;
+}
+.bottom-parent .exp .work p:nth-child(2) {
+  border-top: 1px solid red;
+}
+.bottom-parent .exp .work p:nth-child(3) {
+  border-top: 1px solid red;
+}
+.bottom-parent .exp .work p:nth-child(4) {
+  border-top: 1px solid red;
 }
 .bottom-parent .one {
   width: 100%;
