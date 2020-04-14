@@ -231,6 +231,7 @@ h6 {
   margin-right: 8%;
 }
 .intro-parent img {
+  object-fit: cover;
   width: 30%;
   height: 25vh;
   border-radius: 25px;
@@ -282,6 +283,7 @@ h6 {
 .bottom-parent .exp {
   text-align: center;
   width: 100%;
+  text-transform: capitalize;
 }
 .bottom-parent .exp .work {
   display: flex;
